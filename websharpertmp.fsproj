@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <WebSharperProject>Bundle</WebSharperProject>
+    <WebSharperDeadCodeElimination>true</WebSharperDeadCodeElimination>
+    <WebSharperSourceMap>True</WebSharperSourceMap>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Client.fs" />
+    <Compile Include="Startup.fs" />
+    <EmbeddedResource Include="javascript\test.js" LogicalName="test.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WebSharper" Version="4.6.1.381" />    
+    <PackageReference Include="WebSharper.FSharp" Version="4.6.1.381" />
+    <PackageReference Include="WebSharper.UI" Version="4.6.1.207" />
+    <PackageReference Include="WebSharper.AspNetCore" Version="4.6.1.127" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,3 @@
+C:\Users\sexto\source\repos\websharpertmp\obj\Debug\netcoreapp2.2\websharpertmp.fsprojAssemblyReference.cache
+C:\Users\sexto\source\repos\websharpertmp\obj\Debug\netcoreapp2.2\websharpertmp.AssemblyInfoInputs.cache
+C:\Users\sexto\source\repos\websharpertmp\obj\Debug\netcoreapp2.2\websharpertmp.AssemblyInfo.fs
